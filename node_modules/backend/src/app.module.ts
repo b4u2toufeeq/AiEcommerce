@@ -3,7 +3,9 @@ import { createObserveModule } from '@nestjs/observe';
 import { AppController } from './app.controller.js';
 import { AppService } from './app.service.js';
 import { ConfigModule } from '@nestjs/config';
+import { ProductsModule } from './products/products.module';
 import path from 'node:path';
+import { PrismaModule } from './prisma/prisma.modules.js';
 
 export const { ObserveModule, ObserveInstrument } = createObserveModule();
 
@@ -12,6 +14,8 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
     ConfigModule.forRoot({
       envFilePath: path.resolve(__dirname, '../../.env'), isGlobal: true,
     }),
+    PrismaModule,
+    ProductsModule,
 
   ],
   controllers: [AppController],

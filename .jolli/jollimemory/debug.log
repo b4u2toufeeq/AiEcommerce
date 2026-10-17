@@ -230,3 +230,66 @@ Use '--' to separate paths from revisions, like this:
 [2026-10-16T09:51:55.319Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=7, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
 [2026-10-16T09:51:55.322Z] INFO  [Installer] Checking Jolli Memory status
 [2026-10-16T09:51:58.729Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=7, summaries=0, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-16T14:09:46.292Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-16T15:09:43.258Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T03:20:40.326Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"d:\\Agentic AI Projects\\AI Ecommerce Product Recomendation codeWithJay\\scratch","extensionPath":"c:\\Users\\Administrator\\.vscode\\extensions\\jolli.jollimemory-vscode-0.99.18"}
+[2026-10-17T03:20:47.544Z] INFO  [initialLoad] Loading all panels
+[2026-10-17T03:21:17.352Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=7020, cwd=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-10-17T03:21:19.055Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-10-17T03:21:19.055Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-10-17T03:21:19.056Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-10-17T03:21:19.065Z] INFO  [SkillProjection] projectActiveSkills: 0 active (0 in registry)
+[2026-10-17T03:21:45.471Z] WARN  [activate] kbInitPromise watchdog fired after 60s — releasing sync gate; check initializeKB() for hangs
+[2026-10-17T03:22:02.177Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-17T03:22:05.280Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-17T03:22:05.283Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-17T03:22:08.353Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T03:22:19.384Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-17T03:22:54.218Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-17T03:25:16.042Z] INFO  [SchemaV5Migration] Found 1 summary files to inspect
+[2026-10-17T03:25:22.113Z] INFO  [SchemaV5Migration] Reading 1 summaries...
+[2026-10-17T03:26:12.724Z] INFO  [SchemaV5Migration] Read 1 summaries in 50611 ms
+[2026-10-17T03:26:12.725Z] INFO  [SchemaV5Migration] Writing 1 summary file(s) via active storage...
+[2026-10-17T03:26:13.195Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=8, summaries=1, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-17T03:26:13.527Z] INFO  [initialLoad] All panels loaded — updating status bar
+[2026-10-17T03:26:13.688Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-17T03:26:21.376Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=8, summaries=1, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-17T03:26:21.436Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-17T03:27:05.957Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=8, summaries=1, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-17T03:27:06.588Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-17T03:27:12.748Z] INFO  [GitOps] Updated branch 'jollimemory/summaries/v3': 1 written, 0 deleted (via fast-import)
+[2026-10-17T03:27:12.779Z] INFO  [MetadataManager] Branch mapping created: master → master
+[2026-10-17T03:27:12.796Z] INFO  [MetadataManager] Manifest updated: master/initial-setup-c033206a.md (commit)
+[2026-10-17T03:27:12.797Z] INFO  [FolderStorage] Markdown generated: master/initial-setup-c033206a.md
+[2026-10-17T03:27:12.798Z] INFO  [FolderStorage] Wrote 1 files, deleted 0 (Schema v5 migration: re-pushing 1 v5 summaries to heal storage shadow)
+[2026-10-17T03:27:12.914Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=8, summaries=1, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-17T03:27:13.063Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-17T03:27:15.256Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-17T03:27:23.935Z] INFO  [GitOps] Updated branch 'jollimemory/summaries/v3': 1 written, 0 deleted (via fast-import)
+[2026-10-17T03:27:23.942Z] INFO  [FolderStorage] Wrote 1 files, deleted 0 (Schema v5 migration: re-pushing 1 v5 summaries to heal storage shadow)
+[2026-10-17T03:27:23.942Z] INFO  [SchemaV5Migration] Schema v5 migration complete: 0 migrated, 1 skipped, fresh=false, recovery=true (took 71217 ms)
+[2026-10-17T03:27:23.942Z] INFO  [SchemaV5Migration] Pre-migration orphan-branch SHA was 0197a50519c3065a40fbc2713bf86392e21532f5 (debug-only recovery anchor)
+[2026-10-17T03:27:23.952Z] INFO  [activate] Schema v5 migration: alreadyDone=false fresh=false migrated=0 skipped=1
+[2026-10-17T03:27:25.225Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=8, summaries=1, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-17T03:27:26.512Z] INFO  [MigrationEngine] === Migration started ===
+[2026-10-17T03:27:32.054Z] INFO  [FolderStorage] Wrote 1 files, deleted 0 (Migration: transcript transcripts/5f610d39-9987-4094-8a17-92e44d5954b6.json)
+[2026-10-17T03:27:32.054Z] INFO  [MigrationEngine] Migrated 1 additional transcript file(s)
+[2026-10-17T03:27:32.061Z] INFO  [FolderStorage] Wrote 1 files, deleted 0 (Migration: copy index)
+[2026-10-17T03:27:32.067Z] INFO  [MigrationEngine] === Migration completed: 0 migrated, 1 skipped, 0 failed ===
+[2026-10-17T03:27:32.069Z] INFO  [MigrationEngine] === 0.99.2 head-regen (one-shot) started ===
+[2026-10-17T03:27:32.073Z] INFO  [MigrationEngine] Head regenerate: regenerated=1 skipped=0 failed=0
+[2026-10-17T03:27:32.074Z] INFO  [MigrationEngine] Stale-child sweep: deleted=0 failed=0
+[2026-10-17T03:27:32.078Z] INFO  [activate] KB auto-migration: completed (1/1)
+[2026-10-17T04:33:00.769Z] INFO  [McpProxy] [trace=890773991829fedd89deb2c748b2f8e1] Spawned MCP daemon (pid 15820) for D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-17T04:33:07.569Z] INFO  [UpdateCheck] [trace=0b5f30df6068df16d1e636d1bcf94940] Spawned detached update-check refresh (PID: 16060)
+[2026-10-17T04:33:09.818Z] INFO  [StorageFactory] [trace=0b5f30df6068df16d1e636d1bcf94940] StorageFactory.create: route=uncutover, projectPath=D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-17T04:33:11.797Z] INFO  [McpServer] [trace=0b5f30df6068df16d1e636d1bcf94940] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-10-17T04:33:11.804Z] INFO  [McpDaemon] [trace=0b5f30df6068df16d1e636d1bcf94940] MCP daemon listening on \\.\pipe\jolli-mcp-40448cde5e11cc3e (cwd=D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch, version=0.99.18)
+[2026-10-17T04:33:11.839Z] INFO  [McpProxy] [trace=890773991829fedd89deb2c748b2f8e1] Attached to MCP daemon 15820 (v0.99.18) for D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-17T04:33:11.844Z] INFO  [McpServer] [trace=0b5f30df6068df16d1e636d1bcf94940] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-10-17T04:33:12.170Z] INFO  [McpServer] MCP client connected: opencode/1.19.2 (unmapped — candidate for CLIENTINFO_AGENTS)
+[2026-10-17T04:33:20.884Z] INFO  [EnsureGlobalDaemon] [trace=eba0769c18342b19d07792eb1882fc51] spawned global daemon ensure helper (pid 16680)
+[2026-10-17T04:33:29.342Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T04:33:58.441Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T05:43:16.199Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T07:09:24.949Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}

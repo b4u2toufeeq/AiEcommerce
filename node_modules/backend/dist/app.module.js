@@ -16,7 +16,9 @@ const observe_1 = require("@nestjs/observe");
 const app_controller_js_1 = require("./app.controller.js");
 const app_service_js_1 = require("./app.service.js");
 const config_1 = require("@nestjs/config");
+const products_module_1 = require("./products/products.module");
 const node_path_1 = __importDefault(require("node:path"));
+const prisma_modules_js_1 = require("./prisma/prisma.modules.js");
 _a = (0, observe_1.createObserveModule)(), exports.ObserveModule = _a.ObserveModule, exports.ObserveInstrument = _a.ObserveInstrument;
 let AppModule = class AppModule {
 };
@@ -27,6 +29,8 @@ exports.AppModule = AppModule = __decorate([
             config_1.ConfigModule.forRoot({
                 envFilePath: node_path_1.default.resolve(__dirname, '../../.env'), isGlobal: true,
             }),
+            prisma_modules_js_1.PrismaModule,
+            products_module_1.ProductsModule,
         ],
         controllers: [app_controller_js_1.AppController],
         providers: [app_service_js_1.AppService],
