@@ -12,7 +12,12 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
 @Module({
   imports: [
     ConfigModule.forRoot({
-      envFilePath: path.resolve(__dirname, '../../.env'), isGlobal: true,
+      envFilePath: [
+        path.resolve(__dirname, '../../.env'),
+        path.resolve(process.cwd(), '../.env'),
+        path.resolve(process.cwd(), '.env'),
+      ],
+      isGlobal: true,
     }),
     PrismaModule,
     ProductsModule,

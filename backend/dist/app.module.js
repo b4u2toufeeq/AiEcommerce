@@ -27,7 +27,12 @@ exports.AppModule = AppModule = __decorate([
     (0, common_1.Module)({
         imports: [
             config_1.ConfigModule.forRoot({
-                envFilePath: node_path_1.default.resolve(__dirname, '../../.env'), isGlobal: true,
+                envFilePath: [
+                    node_path_1.default.resolve(__dirname, '../../.env'),
+                    node_path_1.default.resolve(process.cwd(), '../.env'),
+                    node_path_1.default.resolve(process.cwd(), '.env'),
+                ],
+                isGlobal: true,
             }),
             prisma_modules_js_1.PrismaModule,
             products_module_1.ProductsModule,

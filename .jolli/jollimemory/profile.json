@@ -1,3 +1,11 @@
 {
-	"manuallyDisabled": false
+	"manuallyDisabled": false,
+	"cutoverAttemptedAtMs": 1792221333778,
+	"cutoverFence": {
+		"reason": "cutover to sqlite",
+		"at": "2026-10-17T07:15:35.511Z",
+		"tips": {
+			"D:\\Agentic AI Projects\\AI Ecommerce Product Recomendation codeWithJay\\scratch": "b541c52c8dda6770f6e02834c6cb042ea797b936"
+		}
+	}
 }

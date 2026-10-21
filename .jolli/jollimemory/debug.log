@@ -293,3 +293,286 @@ Use '--' to separate paths from revisions, like this:
 [2026-10-17T04:33:58.441Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
 [2026-10-17T05:43:16.199Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
 [2026-10-17T07:09:24.949Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T07:13:26.402Z] INFO  [PrepareMsgHook] === Prepare-commit-msg hook started (source: message) ===
+[2026-10-17T07:13:26.504Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=1324, cwd=D:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=D:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-10-17T07:13:27.338Z] INFO  [PrepareMsgHook] === Prepare-commit-msg hook finished ===
+[2026-10-17T07:13:33.926Z] INFO  [RepoProfile] [trace=2130c26b1e393e720414cefcb7349a80] manual-disable read → false (by=manuallyDisabled, pid=17596, cwd=D:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=D:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-10-17T07:13:34.214Z] INFO  [PostCommitHook] [trace=2130c26b1e393e720414cefcb7349a80] Detected operation: commit
+[2026-10-17T07:13:34.666Z] INFO  [PostCommitHook] [trace=2130c26b1e393e720414cefcb7349a80] Enqueued: type=commit hash=0f774580
+[2026-10-17T07:13:34.667Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Launching background worker
+[2026-10-17T07:13:34.935Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Background worker spawned (PID: 15344)
+[2026-10-17T07:13:35.077Z] INFO  [EnsureGlobalDaemon] [trace=2130c26b1e393e720414cefcb7349a80] spawned global daemon ensure helper (pid 10120)
+[2026-10-17T07:13:36.179Z] INFO  [RepoProfile] [trace=2130c26b1e393e720414cefcb7349a80] manual-disable read → false (by=manuallyDisabled, pid=15344, cwd=D:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=D:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-10-17T07:13:38.554Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] === Queue worker started === node=24.15.0 kind=vscode-plugin source=vscode pkgVer=0.99.18 cliVer=0.99.18 dist=c:\Users\Administrator\.vscode\extensions\jolli.jollimemory-vscode-0.99.18\dist
+[2026-10-17T07:13:38.612Z] INFO  [StorageFactory] [trace=2130c26b1e393e720414cefcb7349a80] StorageFactory.create: route=uncutover, projectPath=D:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-17T07:13:42.619Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Processing queue entry: type=commit hash=0f774580
+[2026-10-17T07:13:44.471Z] INFO  [GitOps] [trace=2130c26b1e393e720414cefcb7349a80] Commit 0f774580: products api working
+[2026-10-17T07:13:44.473Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Commit: 0f774580 - products api working (1.6s)
+[2026-10-17T07:13:44.756Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Discovered 8 OpenCode session(s)
+[2026-10-17T07:13:46.885Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Discovered 1 Copilot Chat session(s)
+[2026-10-17T07:13:48.598Z] INFO  [OpenCodeTranscriptReader] [trace=2130c26b1e393e720414cefcb7349a80] Read OpenCode session ses_ebd3: 14 new messages, 4 entries extracted (index 0→14)
+[2026-10-17T07:13:48.601Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Transcript source: session=ses_ebd3442fbffefz8LzQ8yCcOB8T, lines=0→14, entries=4
+[2026-10-17T07:13:49.315Z] INFO  [OpenCodeTranscriptReader] [trace=2130c26b1e393e720414cefcb7349a80] Read OpenCode session ses_ebd0: 7 new messages, 1 entries extracted (index 0→7)
+[2026-10-17T07:13:49.316Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Transcript source: session=ses_ebd0d3696ffe1aX7Ba0volZpw1, lines=0→7, entries=1
+[2026-10-17T07:13:49.558Z] INFO  [OpenCodeTranscriptReader] [trace=2130c26b1e393e720414cefcb7349a80] Read OpenCode session ses_ebd0: 6 new messages, 2 entries extracted (index 0→6)
+[2026-10-17T07:13:49.563Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Transcript source: session=ses_ebd037d0dffeSK4zYlU0loVhSX, lines=0→6, entries=2
+[2026-10-17T07:13:49.591Z] INFO  [OpenCodeTranscriptReader] [trace=2130c26b1e393e720414cefcb7349a80] Read OpenCode session ses_ebcf: 6 new messages, 2 entries extracted (index 0→6)
+[2026-10-17T07:13:49.593Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Transcript source: session=ses_ebcf22225ffeFN53NmFZ3owi8x, lines=0→6, entries=2
+[2026-10-17T07:13:50.109Z] INFO  [OpenCodeTranscriptReader] [trace=2130c26b1e393e720414cefcb7349a80] Read OpenCode session ses_ebce: 7 new messages, 3 entries extracted (index 0→7)
+[2026-10-17T07:13:50.110Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Transcript source: session=ses_ebcedec59ffepvHnOEkSB4xrWX, lines=0→7, entries=3
+[2026-10-17T07:14:03.898Z] INFO  [OpenCodeTranscriptReader] [trace=2130c26b1e393e720414cefcb7349a80] Read OpenCode session ses_ebce: 32 new messages, 8 entries extracted (index 0→32)
+[2026-10-17T07:14:03.901Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Transcript source: session=ses_ebce887f0ffeCpga6netuj96ES, lines=0→32, entries=8
+[2026-10-17T07:14:53.948Z] INFO  [OpenCodeTranscriptReader] [trace=2130c26b1e393e720414cefcb7349a80] Read OpenCode session ses_ebbd: 37 new messages, 8 entries extracted (index 0→37)
+[2026-10-17T07:14:54.012Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Transcript source: session=ses_ebbdb5db0ffeTAFvK9GhbycLgO, lines=0→37, entries=8
+[2026-10-17T07:14:54.335Z] INFO  [OpenCodeTranscriptReader] [trace=2130c26b1e393e720414cefcb7349a80] Read OpenCode session ses_eb7d: 22 new messages, 2 entries extracted (index 0→22)
+[2026-10-17T07:14:54.347Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Transcript source: session=ses_eb7d8aa74ffe7iE3Wvnb5VP8Hr, lines=0→22, entries=2
+[2026-10-17T07:14:54.521Z] WARN  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Transcript source read to zero conversation entries: source=copilot-chat path=C:\Users\Administrator\AppData\Roaming\Code\User\workspaceStorage\a4b8ba7bfcf49c200c377237a13062f3\chatSessions\8029ec73-9dd7-4150-b8a0-95cd3f3056be.jsonl lines=0→0 unrecognizedRows=0
+[2026-10-17T07:14:54.522Z] WARN  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Not advancing read cursor: source recognized nothing in consumed lines: source=copilot-chat path=C:\Users\Administrator\AppData\Roaming\Code\User\workspaceStorage\a4b8ba7bfcf49c200c377237a13062f3\chatSessions\8029ec73-9dd7-4150-b8a0-95cd3f3056be.jsonl lines=0→0 unrecognizedRows=0
+[2026-10-17T07:14:57.619Z] WARN  [GitOps] [trace=2130c26b1e393e720414cefcb7349a80] Diff exceeds 150000-char budget (1347312 chars) — prepending --stat file list and truncating body
+[2026-10-17T07:14:58.911Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Git diff: 97 files changed, +1941 -10720 (4.3s)
+[2026-10-17T07:15:00.398Z] INFO  [PrePushHook] [trace=d34488b2a3990369adcd6a149672eec6] pre-push hook: remote=origin budget=3000ms
+[2026-10-17T07:15:00.605Z] INFO  [RepoProfile] [trace=d34488b2a3990369adcd6a149672eec6] manual-disable read → false (by=manuallyDisabled, pid=14392, cwd=D:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=D:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=none)
+[2026-10-17T07:15:02.095Z] INFO  [PushPendingStore] [trace=d34488b2a3990369adcd6a149672eec6] Enqueued 1 new push-pending entries (branch=main)
+[2026-10-17T07:15:02.106Z] INFO  [PrePushHook] [trace=d34488b2a3990369adcd6a149672eec6] pre-push: recorded 1 commit(s) across 1 pushed ref(s)
+[2026-10-17T07:15:02.646Z] WARN  [GitOps] [trace=2130c26b1e393e720414cefcb7349a80] Diff exceeds 60000-char budget (1347312 chars) — prepending --stat file list and truncating body
+[2026-10-17T07:14:49.936Z] INFO  [StorageFactory] StorageFactory.create: route=uncutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-17T07:15:03.349Z] INFO  [PrePushHook] [trace=d34488b2a3990369adcd6a149672eec6] Recorded 1 commit(s) for later sync — not signed in to Jolli
+[2026-10-17T07:15:02.970Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Prompt blocks: plans=0 notes=0 references=0 (+0 track-only archived, not prompted) (AI soft-excluded 0)
+[2026-10-17T07:15:03.112Z] INFO  [Summarizer] [trace=2130c26b1e393e720414cefcb7349a80] Generating summary for commit 0f774580
+[2026-10-17T07:15:03.112Z] INFO  [Summarizer] [trace=2130c26b1e393e720414cefcb7349a80] Context: transcript=30, files=97, lines=1941+10720
+[2026-10-17T07:15:03.137Z] WARN  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] First API attempt failed: No LLM provider available. Set an Anthropic API key (ANTHROPIC_API_KEY) or configure a Jolli Space API key (jolliApiKey).. Retrying in 2000ms...
+[2026-10-17T07:15:05.167Z] INFO  [Summarizer] [trace=2130c26b1e393e720414cefcb7349a80] Generating summary for commit 0f774580
+[2026-10-17T07:15:05.167Z] INFO  [Summarizer] [trace=2130c26b1e393e720414cefcb7349a80] Context: transcript=30, files=97, lines=1941+10720
+[2026-10-17T07:15:05.168Z] ERROR [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] API call failed after retry: No LLM provider available. Set an Anthropic API key (ANTHROPIC_API_KEY) or configure a Jolli Space API key (jolliApiKey).
+[2026-10-17T07:15:05.168Z] WARN  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Saving summary with empty topics + llm-failed marker for commit 0f774580
+[2026-10-17T07:15:05.169Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] API summary generated (2.2s)
+[2026-10-17T07:15:05.172Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Plan registry scan: found 0 uncommitted slug(s) on main: []
+[2026-10-17T07:15:05.190Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Plan association: detected 0 slug(s) from transcripts: []
+[2026-10-17T07:15:05.193Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Note registry scan: found 0 uncommitted note(s) on main: []
+[2026-10-17T07:15:05.193Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Note association: detected 0 note(s): []
+[2026-10-17T07:15:05.203Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Reference association: detected 0 ref(s) for branch main
+[2026-10-17T07:15:05.340Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Summary built for 0f774580: recap=no, topics=0, plans=absent, notes=absent, references=absent
+[2026-10-17T07:15:20.143Z] INFO  [GitOps] [trace=2130c26b1e393e720414cefcb7349a80] Updated branch 'jollimemory/summaries/v3': 4 written, 0 deleted (via fast-import)
+[2026-10-17T07:15:20.167Z] INFO  [MetadataManager] [trace=2130c26b1e393e720414cefcb7349a80] Branch mapping created: main → main
+[2026-10-17T07:15:20.363Z] INFO  [MetadataManager] [trace=2130c26b1e393e720414cefcb7349a80] Manifest updated: main/products-api-working-0f774580.md (commit)
+[2026-10-17T07:15:20.365Z] INFO  [FolderStorage] [trace=2130c26b1e393e720414cefcb7349a80] Markdown generated: main/products-api-working-0f774580.md
+[2026-10-17T07:15:20.386Z] INFO  [FolderStorage] [trace=2130c26b1e393e720414cefcb7349a80] Wrote 4 files, deleted 0 (Add summary for 0f774580: products api working)
+[2026-10-17T07:15:20.386Z] INFO  [SummaryStore] [trace=2130c26b1e393e720414cefcb7349a80] Summary stored successfully for commit 0f774580
+[2026-10-17T07:15:21.432Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Summary stored successfully for commit 0f774580 (16.1s, 0 plans, 0 notes, 0 references)
+[2026-10-17T07:15:21.435Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] === Pipeline completed in 98.6s ===
+[2026-10-17T07:15:21.436Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] === Summary content (0 topics) ===
+[2026-10-17T07:15:21.889Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] Processed 1 queue entries
+[2026-10-17T07:15:21.900Z] INFO  [PushExecutor] [trace=2130c26b1e393e720414cefcb7349a80] Post-queue push trigger: scheduling drain for 1 newly generated summar(ies)
+[2026-10-17T07:15:21.952Z] INFO  [PushExecutor] [trace=2130c26b1e393e720414cefcb7349a80] processPushPending(post-queue): 1 pending entr(ies) (filtered to 1 hash(es))
+[2026-10-17T07:15:22.677Z] INFO  [PushExecutor] [trace=2130c26b1e393e720414cefcb7349a80] processPushPending(post-queue): not signed in — keeping 1 entries for later
+[2026-10-17T07:15:27.353Z] INFO  [GitOps] [trace=2130c26b1e393e720414cefcb7349a80] Commit 0f774580: products api working
+[2026-10-17T07:15:29.809Z] INFO  [StorageFactory] [trace=2130c26b1e393e720414cefcb7349a80] StorageFactory.create: route=uncutover, projectPath=D:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-17T07:15:33.769Z] INFO  [QueueWorker] [trace=2130c26b1e393e720414cefcb7349a80] === Queue worker finished ===
+[2026-10-17T07:15:33.777Z] INFO  [SessionStartHook] [trace=2130c26b1e393e720414cefcb7349a80] Briefing cache not warmed — nothing to brief on this branch
+[2026-10-17T07:15:33.983Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-10-17T07:15:35.490Z] INFO  [AutoCutover] [trace=2130c26b1e393e720414cefcb7349a80] auto-cutover: attempting for D:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-17T07:15:46.595Z] INFO  [SotImport] [trace=2130c26b1e393e720414cefcb7349a80] orphan import for https://github.com/b4u2toufeeq/aiecommerce: %o
+[2026-10-17T07:15:52.613Z] INFO  [CutoverEngine] [trace=2130c26b1e393e720414cefcb7349a80] cutover committed for https://github.com/b4u2toufeeq/aiecommerce at version 1
+[2026-10-17T07:15:52.637Z] INFO  [AutoCutover] [trace=2130c26b1e393e720414cefcb7349a80] auto-cutover: D:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch is now served from SQLite
+[2026-10-17T07:15:52.681Z] INFO  [SessionSync] [trace=2130c26b1e393e720414cefcb7349a80] session sync: not uploading — no API key configured
+[2026-10-17T07:15:33.984Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-10-17T07:15:33.985Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-10-17T07:15:33.986Z] INFO  [SkillProjection] projectActiveSkills: 0 active (0 in registry)
+[2026-10-17T07:15:56.304Z] INFO  [SessionTracker] upsertSkillEntry: opencode:customize-opencode (new, ×1)
+[2026-10-17T07:15:57.070Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-10-17T07:15:57.071Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-10-17T07:15:57.071Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-10-17T07:15:57.072Z] INFO  [SkillProjection] projectActiveSkills: 1 active (1 in registry)
+[2026-10-17T07:15:57.342Z] INFO  [SessionTracker] upsertSkillEntry: opencode:customize-opencode (updated, ×2)
+[2026-10-17T07:15:57.351Z] INFO  [OpenCodeSkillDiscovery] Persisted 2 OpenCode skill(s)
+[2026-10-17T07:15:58.130Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-10-17T07:15:58.131Z] INFO  [SkillProjection] projectActiveSkills: 1 active (1 in registry)
+[2026-10-17T07:15:58.131Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-10-17T07:15:58.132Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-10-17T07:16:01.673Z] INFO  [OpenCodeTranscriptReader] Read OpenCode session ses_ebd3: 0 new messages, 0 entries extracted (index 14→14)
+[2026-10-17T07:16:01.685Z] INFO  [OpenCodeTranscriptReader] Read OpenCode session ses_ebd0: 0 new messages, 0 entries extracted (index 6→6)
+[2026-10-17T07:16:01.694Z] INFO  [OpenCodeTranscriptReader] Read OpenCode session ses_ebd0: 0 new messages, 0 entries extracted (index 7→7)
+[2026-10-17T07:16:15.753Z] INFO  [OpenCodeTranscriptReader] Read OpenCode session ses_ebce: 0 new messages, 0 entries extracted (index 32→32)
+[2026-10-17T07:16:16.058Z] INFO  [OpenCodeTranscriptReader] Read OpenCode session ses_ebcf: 0 new messages, 0 entries extracted (index 6→6)
+[2026-10-17T07:16:36.342Z] INFO  [OpenCodeTranscriptReader] Read OpenCode session ses_ebbd: 0 new messages, 0 entries extracted (index 37→37)
+[2026-10-17T07:16:36.352Z] INFO  [OpenCodeTranscriptReader] Read OpenCode session ses_ebce: 0 new messages, 0 entries extracted (index 7→7)
+[2026-10-17T07:16:36.386Z] INFO  [OpenCodeTranscriptReader] Read OpenCode session ses_eb7d: 0 new messages, 0 entries extracted (index 22→22)
+[2026-10-17T07:16:37.295Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T07:16:40.742Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T07:16:40.825Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-17T07:16:58.222Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T07:19:13.246Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T08:08:52.857Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T09:19:48.806Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T10:23:13.085Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-17T10:23:13.913Z] INFO  [SlowQuery] 235ms all [ro] params=1 rows=2 :: SELECT commit_hash, parent_hash, root_hash, tree_hash, commit_type, commit_message, commit_date, branch, generated_at, CASE WHEN parent_hash IS NULL THEN COALESCE(json_extract(summary_json, '$.diffStats'), index_diff_stats_json) END AS diff…
+[2026-10-17T12:23:29.444Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-18T00:38:35.871Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-18T00:38:56.207Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-18T01:51:28.772Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"d:\\Agentic AI Projects\\AI Ecommerce Product Recomendation codeWithJay\\scratch","extensionPath":"c:\\Users\\Administrator\\.vscode\\extensions\\jolli.jollimemory-vscode-0.99.18"}
+[2026-10-18T01:51:32.329Z] INFO  [initialLoad] Loading all panels
+[2026-10-18T01:51:48.300Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=13980, cwd=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=2026-10-17T07:15:35.511Z)
+[2026-10-18T01:51:53.864Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-10-18T01:51:53.865Z] INFO  [SkillProjection] projectActiveSkills: 1 active (1 in registry)
+[2026-10-18T01:51:53.866Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-10-18T01:51:53.866Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-10-18T01:52:04.045Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-18T01:52:10.921Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-18T01:52:10.921Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-18T01:52:11.088Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-18T01:52:12.455Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-18T01:52:18.340Z] INFO  [activate] Schema v5 migration already complete — skipping (no UI toggle)
+[2026-10-18T01:52:21.406Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=9, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-18T01:52:21.468Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-18T01:52:21.850Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=9, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-18T01:52:21.858Z] INFO  [initialLoad] All panels loaded — updating status bar
+[2026-10-18T01:52:21.858Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-18T01:52:22.682Z] INFO  [MigrationEngine] 0.99.2 head-regen already completed at 2026-10-17T03:27:32.074Z — skipping phase 1
+[2026-10-18T01:52:22.689Z] INFO  [MigrationEngine] Stale-child sweep: deleted=0 failed=0
+[2026-10-18T01:52:22.694Z] INFO  [activate] KB stale-child reconcile: swept=0 completedAt=2026-10-17T03:27:32.074Z
+[2026-10-18T01:52:23.800Z] INFO  [RepoProfile] [trace=77e1779505dbab8f017559ca18093a40] manual-disable read → false (by=manuallyDisabled, pid=4584, cwd=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=2026-10-17T07:15:35.511Z)
+[2026-10-18T01:52:23.802Z] INFO  [PrePushWorker] [trace=77e1779505dbab8f017559ca18093a40] PrePushWorker(vscode-activation): spawned compensation drain starting
+[2026-10-18T01:52:23.811Z] INFO  [PushExecutor] [trace=77e1779505dbab8f017559ca18093a40] processPushPending(activation): 1 pending entr(ies)
+[2026-10-18T01:52:24.505Z] INFO  [PushExecutor] [trace=77e1779505dbab8f017559ca18093a40] processPushPending(activation): not signed in — keeping 1 entries for later
+[2026-10-18T01:52:24.505Z] INFO  [PrePushWorker] [trace=77e1779505dbab8f017559ca18093a40] PrePushWorker(vscode-activation): drain done — attempted=0 pushed=0 failed=0 (not signed in)
+[2026-10-18T01:52:24.736Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=9, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-18T01:52:24.817Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-18T01:52:29.191Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=9, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-18T01:52:29.218Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-18T01:52:31.392Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=9, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-18T01:52:37.255Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-18T04:14:30.030Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"d:\\Agentic AI Projects\\AI Ecommerce Product Recomendation codeWithJay\\scratch","extensionPath":"c:\\Users\\Administrator\\.vscode\\extensions\\jolli.jollimemory-vscode-0.99.18"}
+[2026-10-18T04:14:31.331Z] INFO  [initialLoad] Loading all panels
+[2026-10-18T04:14:32.671Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=12884, cwd=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=2026-10-17T07:15:35.511Z)
+[2026-10-18T04:14:47.726Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-10-18T04:14:47.733Z] INFO  [SkillProjection] projectActiveSkills: 1 active (1 in registry)
+[2026-10-18T04:14:47.733Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-10-18T04:14:47.734Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-10-18T04:14:56.795Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-18T04:15:00.750Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-18T04:15:12.994Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-18T04:15:12.994Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-18T04:15:14.790Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-18T04:15:21.164Z] INFO  [activate] Schema v5 migration already complete — skipping (no UI toggle)
+[2026-10-18T04:15:33.481Z] WARN  [activate] kbInitPromise watchdog fired after 60s — releasing sync gate; check initializeKB() for hangs
+[2026-10-18T04:15:33.928Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=8, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-18T04:15:33.928Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=8, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-18T04:15:34.629Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-18T04:15:34.631Z] INFO  [initialLoad] All panels loaded — updating status bar
+[2026-10-18T04:15:34.632Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-18T04:15:36.146Z] INFO  [MigrationEngine] 0.99.2 head-regen already completed at 2026-10-17T03:27:32.074Z — skipping phase 1
+[2026-10-18T04:15:36.149Z] INFO  [MigrationEngine] Stale-child sweep: deleted=0 failed=0
+[2026-10-18T04:15:36.154Z] INFO  [activate] KB stale-child reconcile: swept=0 completedAt=2026-10-17T03:27:32.074Z
+[2026-10-18T04:15:37.898Z] INFO  [RepoProfile] [trace=5167f0bf31203d97470c9c62dffd95f2] manual-disable read → false (by=manuallyDisabled, pid=5312, cwd=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=2026-10-17T07:15:35.511Z)
+[2026-10-18T04:15:37.901Z] INFO  [PrePushWorker] [trace=5167f0bf31203d97470c9c62dffd95f2] PrePushWorker(vscode-activation): spawned compensation drain starting
+[2026-10-18T04:15:37.909Z] INFO  [PushExecutor] [trace=5167f0bf31203d97470c9c62dffd95f2] processPushPending(activation): 1 pending entr(ies)
+[2026-10-18T04:15:39.445Z] INFO  [PushExecutor] [trace=5167f0bf31203d97470c9c62dffd95f2] processPushPending(activation): not signed in — keeping 1 entries for later
+[2026-10-18T04:15:39.447Z] INFO  [PrePushWorker] [trace=5167f0bf31203d97470c9c62dffd95f2] PrePushWorker(vscode-activation): drain done — attempted=0 pushed=0 failed=0 (not signed in)
+[2026-10-18T04:15:45.108Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=8, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-18T04:15:45.111Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-18T04:15:45.225Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=8, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-18T04:15:45.274Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-18T04:15:51.874Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-18T04:15:52.230Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=8, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-18T04:25:10.704Z] INFO  [McpProxy] [trace=409e11d99004a4d048892afe832c5470] Spawned MCP daemon (pid 10252) for D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-18T04:25:21.503Z] INFO  [StorageFactory] [trace=c1aadee806f5a89983c1c89bd693a122] StorageFactory.create: route=cutover, projectPath=D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-18T04:25:24.042Z] INFO  [McpServer] [trace=c1aadee806f5a89983c1c89bd693a122] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-10-18T04:25:24.049Z] INFO  [McpDaemon] [trace=c1aadee806f5a89983c1c89bd693a122] MCP daemon listening on \\.\pipe\jolli-mcp-40448cde5e11cc3e (cwd=D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch, version=0.99.18)
+[2026-10-18T04:25:24.121Z] INFO  [McpServer] [trace=c1aadee806f5a89983c1c89bd693a122] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-10-18T04:25:24.115Z] INFO  [McpProxy] [trace=409e11d99004a4d048892afe832c5470] Attached to MCP daemon 10252 (v0.99.18) for D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-18T04:25:24.212Z] INFO  [McpServer] MCP client connected: opencode/1.19.2 (unmapped — candidate for CLIENTINFO_AGENTS)
+[2026-10-21T07:02:30.186Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"d:\\Agentic AI Projects\\AI Ecommerce Product Recomendation codeWithJay\\scratch","extensionPath":"c:\\Users\\Administrator\\.vscode\\extensions\\jolli.jollimemory-vscode-0.99.18"}
+[2026-10-21T07:02:38.123Z] INFO  [initialLoad] Loading all panels
+[2026-10-21T07:03:10.114Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=12556, cwd=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=2026-10-17T07:15:35.511Z)
+[2026-10-21T07:03:35.988Z] WARN  [activate] kbInitPromise watchdog fired after 60s — releasing sync gate; check initializeKB() for hangs
+[2026-10-21T07:03:36.946Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-10-21T07:03:36.946Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-10-21T07:03:36.946Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-10-21T07:03:36.947Z] INFO  [SkillProjection] projectActiveSkills: 1 active (1 in registry)
+[2026-10-21T07:03:52.728Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-21T07:03:53.137Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-21T07:03:59.160Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-21T07:03:59.161Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-21T07:04:15.246Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-21T07:04:21.881Z] INFO  [activate] Schema v5 migration already complete — skipping (no UI toggle)
+[2026-10-21T07:04:52.929Z] INFO  [MigrationEngine] 0.99.2 head-regen already completed at 2026-10-17T03:27:32.074Z — skipping phase 1
+[2026-10-21T07:04:55.044Z] INFO  [RepoProfile] [trace=18c6967659a867542c9d641e0423206b] manual-disable read → false (by=manuallyDisabled, pid=11964, cwd=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=2026-10-17T07:15:35.511Z)
+[2026-10-21T07:04:55.046Z] INFO  [PrePushWorker] [trace=18c6967659a867542c9d641e0423206b] PrePushWorker(vscode-activation): spawned compensation drain starting
+[2026-10-21T07:04:55.057Z] INFO  [PushExecutor] [trace=18c6967659a867542c9d641e0423206b] processPushPending(activation): 1 pending entr(ies)
+[2026-10-21T07:04:56.060Z] INFO  [PushExecutor] [trace=18c6967659a867542c9d641e0423206b] processPushPending(activation): not signed in — keeping 1 entries for later
+[2026-10-21T07:04:56.061Z] INFO  [PrePushWorker] [trace=18c6967659a867542c9d641e0423206b] PrePushWorker(vscode-activation): drain done — attempted=0 pushed=0 failed=0 (not signed in)
+[2026-10-21T07:04:52.934Z] INFO  [MigrationEngine] Stale-child sweep: deleted=0 failed=0
+[2026-10-21T07:04:52.942Z] INFO  [activate] KB stale-child reconcile: swept=0 completedAt=2026-10-17T03:27:32.074Z
+[2026-10-21T07:04:53.578Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=0, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-21T07:05:00.907Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=0, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-21T07:05:01.194Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-21T07:05:01.234Z] INFO  [initialLoad] All panels loaded — updating status bar
+[2026-10-21T07:05:01.235Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-21T07:05:24.387Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=0, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-21T07:05:24.392Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-21T07:05:24.997Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=0, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-21T07:05:25.064Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-21T07:05:28.752Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=0, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-21T07:05:31.178Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-21T07:08:51.354Z] INFO  [McpProxy] [trace=a4e3fef9663f9a6bd56b06853497421e] Spawned MCP daemon (pid 13500) for D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-21T07:08:59.752Z] INFO  [UpdateCheck] [trace=d879c3c3743ad52d42d395fd4a234c45] Spawned detached update-check refresh (PID: 11540)
+[2026-10-21T07:09:00.947Z] INFO  [StorageFactory] [trace=d879c3c3743ad52d42d395fd4a234c45] StorageFactory.create: route=cutover, projectPath=D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-21T07:09:05.522Z] INFO  [McpServer] [trace=d879c3c3743ad52d42d395fd4a234c45] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-10-21T07:09:05.540Z] INFO  [McpDaemon] [trace=d879c3c3743ad52d42d395fd4a234c45] MCP daemon listening on \\.\pipe\jolli-mcp-40448cde5e11cc3e (cwd=D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch, version=0.99.18)
+[2026-10-21T07:09:05.651Z] INFO  [McpProxy] [trace=a4e3fef9663f9a6bd56b06853497421e] Attached to MCP daemon 13500 (v0.99.18) for D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-21T07:09:05.658Z] INFO  [McpServer] [trace=d879c3c3743ad52d42d395fd4a234c45] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-10-21T07:09:06.023Z] INFO  [McpServer] MCP client connected: opencode/1.19.2 (unmapped — candidate for CLIENTINFO_AGENTS)
+[2026-10-21T07:09:14.597Z] INFO  [EnsureGlobalDaemon] [trace=fff111652fde01b479c8081df205e456] spawned global daemon ensure helper (pid 14376)
+[2026-10-21T07:09:23.282Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-21T07:09:50.582Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-21T09:07:37.584Z] INFO  [McpProxy] [trace=182b367751dbe0350e9b75f133431458] Spawned MCP daemon (pid 2872) for D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-21T09:07:40.803Z] INFO  [StorageFactory] [trace=33ff70f4b131ba78b9d484a496202305] StorageFactory.create: route=cutover, projectPath=D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-21T09:07:42.556Z] INFO  [McpServer] [trace=33ff70f4b131ba78b9d484a496202305] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-10-21T09:07:42.564Z] INFO  [McpDaemon] [trace=33ff70f4b131ba78b9d484a496202305] MCP daemon listening on \\.\pipe\jolli-mcp-40448cde5e11cc3e (cwd=D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch, version=0.99.18)
+[2026-10-21T09:07:42.610Z] INFO  [McpProxy] [trace=182b367751dbe0350e9b75f133431458] Attached to MCP daemon 2872 (v0.99.18) for D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-21T09:07:42.615Z] INFO  [McpServer] [trace=33ff70f4b131ba78b9d484a496202305] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-10-21T09:07:43.426Z] INFO  [McpServer] MCP client connected: opencode/1.19.2 (unmapped — candidate for CLIENTINFO_AGENTS)
+[2026-10-21T09:23:38.747Z] INFO  [activate] Activating JolliMemory extension {"workspaceRoot":"d:\\Agentic AI Projects\\AI Ecommerce Product Recomendation codeWithJay\\scratch","extensionPath":"c:\\Users\\Administrator\\.vscode\\extensions\\jolli.jollimemory-vscode-0.99.18"}
+[2026-10-21T09:23:44.027Z] INFO  [initialLoad] Loading all panels
+[2026-10-21T09:24:20.645Z] INFO  [RepoProfile] manual-disable read → false (by=manuallyDisabled, pid=9688, cwd=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=2026-10-17T07:15:35.511Z)
+[2026-10-21T09:24:43.175Z] WARN  [activate] kbInitPromise watchdog fired after 60s — releasing sync gate; check initializeKB() for hangs
+[2026-10-21T09:24:46.723Z] INFO  [PlanService] detectPlans found 0 plans (0 in registry)
+[2026-10-21T09:24:46.724Z] INFO  [SkillProjection] projectActiveSkills: 1 active (1 in registry)
+[2026-10-21T09:24:46.725Z] INFO  [references] detectReferences(*) found 0 (0 in registry)
+[2026-10-21T09:24:46.725Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-10-21T09:24:53.367Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-21T09:24:54.943Z] INFO  [bridge] Merged mode activated {"branch":"main","creationPoint":"c033206a","author":"b4u2toufeeq"}
+[2026-10-21T09:25:03.386Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-21T09:25:03.387Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-21T09:25:06.875Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-21T09:25:19.006Z] INFO  [activate] Schema v5 migration already complete — skipping (no UI toggle)
+[2026-10-21T09:27:26.719Z] INFO  [MigrationEngine] 0.99.2 head-regen already completed at 2026-10-17T03:27:32.074Z — skipping phase 1
+[2026-10-21T09:27:30.276Z] INFO  [RepoProfile] [trace=9ffb96d90205bdf9c5736552d603205f] manual-disable read → false (by=manuallyDisabled, pid=13672, cwd=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch, profile=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch\.jolli\jollimemory\profile.json, raw: userDisabled=undefined manuallyDisabled=false fence=2026-10-17T07:15:35.511Z)
+[2026-10-21T09:27:30.282Z] INFO  [PrePushWorker] [trace=9ffb96d90205bdf9c5736552d603205f] PrePushWorker(vscode-activation): spawned compensation drain starting
+[2026-10-21T09:27:30.291Z] INFO  [PushExecutor] [trace=9ffb96d90205bdf9c5736552d603205f] processPushPending(activation): 1 pending entr(ies)
+[2026-10-21T09:27:26.722Z] INFO  [MigrationEngine] Stale-child sweep: deleted=0 failed=0
+[2026-10-21T09:27:26.727Z] INFO  [activate] KB stale-child reconcile: swept=0 completedAt=2026-10-17T03:27:32.074Z
+[2026-10-21T09:27:32.499Z] INFO  [PushExecutor] [trace=9ffb96d90205bdf9c5736552d603205f] processPushPending(activation): not signed in — keeping 1 entries for later
+[2026-10-21T09:27:32.500Z] INFO  [PrePushWorker] [trace=9ffb96d90205bdf9c5736552d603205f] PrePushWorker(vscode-activation): drain done — attempted=0 pushed=0 failed=0 (not signed in)
+[2026-10-21T09:28:46.587Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=2, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-21T09:29:05.248Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=2, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-21T09:29:05.378Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-21T09:29:05.385Z] INFO  [initialLoad] All panels loaded — updating status bar
+[2026-10-21T09:29:05.386Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-21T09:29:13.515Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=2, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-21T09:29:13.668Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-21T09:29:14.488Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=2, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-21T09:29:14.492Z] INFO  [Installer] Checking Jolli Memory status
+[2026-10-21T09:29:34.062Z] INFO  [StorageFactory] StorageFactory.create: route=cutover, projectPath=d:\Agentic AI Projects\AI Ecommerce Product Recomendation codeWithJay\scratch
+[2026-10-21T09:29:34.475Z] INFO  [Installer] Status: enabled=true, claude=true, git=true, geminiHook=true, hermesHook=false, worktreeHooks=true, sessions=2, summaries=2, codex=true/true, gemini=true/true, enabledWorktrees=1, opencode=true/true, cursor=false/true, copilot=false/true, copilotChat=true, cline=false/undefined
+[2026-10-21T09:53:47.847Z] INFO  [NoteService] detectNotes found 0 notes (0 in registry)
+[2026-10-21T09:56:33.689Z] INFO  [McpCommand] [trace=33ff70f4b131ba78b9d484a496202305] MCP daemon exited: idle
+[2026-10-21T09:56:45.551Z] INFO  [McpProxy] [trace=55f9f862e65bda6a74c397c05c004b95] Spawned MCP daemon (pid 9388) for D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-21T09:56:58.017Z] INFO  [StorageFactory] [trace=fba40956405ed4c37549358f613295c2] StorageFactory.create: route=cutover, projectPath=D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-21T09:57:00.572Z] INFO  [McpProxy] [trace=55f9f862e65bda6a74c397c05c004b95] No daemon reachable for D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch — serving in-process
+[2026-10-21T09:57:02.142Z] INFO  [McpServer] [trace=fba40956405ed4c37549358f613295c2] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-10-21T09:57:02.150Z] INFO  [McpDaemon] [trace=fba40956405ed4c37549358f613295c2] MCP daemon listening on \\.\pipe\jolli-mcp-40448cde5e11cc3e (cwd=D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch, version=0.99.18)
+[2026-10-21T09:57:07.164Z] INFO  [StorageFactory] [trace=55f9f862e65bda6a74c397c05c004b95] StorageFactory.create: route=cutover, projectPath=D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch
+[2026-10-21T09:57:14.043Z] INFO  [McpServer] [trace=55f9f862e65bda6a74c397c05c004b95] MCP runtime ready: 10/10 built-in (insideRepo=true) + 0 platform tool(s), gate=open, manifest=fetch-failed
+[2026-10-21T09:57:14.068Z] INFO  [McpServer] [trace=55f9f862e65bda6a74c397c05c004b95] MCP server connected over stdio (cwd=D:/Agentic AI Projects/AI Ecommerce Product Recomendation codeWithJay/scratch)
+[2026-10-21T09:58:02.302Z] INFO  [McpCommand] [trace=fba40956405ed4c37549358f613295c2] MCP daemon exited: no-first-client
