@@ -11,11 +11,15 @@
   "build:backend": "npm run build --workspace=backend",
   "build:frontend": "npm run build --workspace=frontend"
  },
+ "devDependencies": {
+  "prisma": "^6.19.3"
+ },
  "allowScripts": {
-  "@parcel/watcher@2.6.0": true,
-  "@prisma/client@6.19.3": true,
   "@prisma/engines": true,
   "prisma": true,
-  "unrs-resolver@1.12.2": true
+  "bcrypt@6.0.0": true,
+  "@prisma/client": true,
+  "@parcel/watcher": true,
+  "unrs-resolver": true
  }
 }
